@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Windows Forms Graphics</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Windows Forms Graphics</h1>
+        <p>A simple 2D graphics library for C#</p>
+        <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub</a></p>
+        <ul>
+          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>WFG About</h1>
+
+        <p>This project extends systems.drawing by adding animation capabilities. This means that you can create things like games, visualisations and simulations using the simple System.Drawing api straight out of the box.</p>
+
+        <h2>Contents</h2>
+        
+        <p>WFG is as simple as 2 c# files, from which you extend a class and then you're ready to go. There is also demo code within the repository folder "Demo". Here is an example of an implementation:</p>
+          
+        <pre><code>
+public class MyClass : WFGMainWindow
+{
+    public MyClass() : base(Width:256, Height:256, BackgroundColour:Color.White, Title:"My first window")
+    {
+
+    }
+
+    public override void Draw(Graphics g)
+    {
+
+    }
+
+    public override void Update()
+    {
+
+    }
+
+    public override void OnResize(object sender, EventArgs eventArgs)
+    {
+
+    }
+
+    public override void OnScrollWheel(object sender, ScrollEventArgs scrollEventArgs)
+    {
+
+    }
+
+    public override void OnDragDrop(object sender, DragEventArgs dragEventArgs)
+    {
+
+    }
+
+    public override void OnLoad(object sender, EventArgs eventArgs)
+    {
+
+    }
+
+    public override void OnKeyUp(object sender, KeyEventArgs keyEventArgs)
+    {
+
+    }
+
+    public override void OnKeyDown(object sender, KeyEventArgs keyEventArgs)
+    {
+
+    }
+
+    public override void OnMouseUp(object sender, MouseEventArgs mouseEventArgs)
+    {
+
+    }
+
+    public override void OnMouseDoubleClick(object sender, MouseEventArgs mouseEventArgs)
+    {
+
+    }
+
+    public override void OnMouseClick(object sender, MouseEventArgs mouseEventArgs)
+    {
+
+    }
+
+    public override void OnMouseDown(object sender, MouseEventArgs mouseEventArgs)
+    {
+
+    }
+
+    public override void OnClosing(object sender, CancelEventArgs cancelEventArgs)
+    {
+        base.OnClosing(sender, cancelEventArgs);
+    }
+
+    public override void OnKeyPressed(object sender, KeyPressEventArgs eventArgs)
+    {
+
+    }
+}
+
+        </code></pre>
+          
+        <p>And then in your program.cs simple create an object of that class and it will run!</p>
+
+        <pre><code>MyClass test = new MyClass();</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="http://richardbamford.io">Richard Bamford</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
