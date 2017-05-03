@@ -1,7 +1,0 @@
-C:\Programming\C#\WindowsFormGraphics\WindowsFormGraphics\bin\Debug\WindowsFormGraphics.exe.config
-C:\Programming\C#\WindowsFormGraphics\WindowsFormGraphics\bin\Debug\WindowsFormGraphics.exe
-C:\Programming\C#\WindowsFormGraphics\WindowsFormGraphics\bin\Debug\WindowsFormGraphics.pdb
-C:\Programming\C#\WindowsFormGraphics\WindowsFormGraphics\obj\Debug\WindowsFormGraphics.exe
-C:\Programming\C#\WindowsFormGraphics\WindowsFormGraphics\obj\Debug\WindowsFormGraphics.pdb
-C:\Programming\C#\WindowsFormGraphics\WindowsFormGraphics\obj\Debug\WindowsFormGraphics.csprojResolveAssemblyReference.cache
-C:\Programming\C#\WindowsFormGraphics\WindowsFormGraphics\bin\Debug\Demos\freeseams-10.jpg
